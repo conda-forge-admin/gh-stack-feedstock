@@ -1,5 +1,5 @@
 context:
-  version: "0.2.1"
+  version: "0.3.0"
 
 package:
   name: gh-stack
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://github.com/github/gh-stack/archive/refs/tags/v${{ version }}.tar.gz
-    sha256: 263af23a0bd8aed815a7db02c088a3606f4f1ae2774ce7806004ff2895945202
+    sha256: 4a1ca47c2cc03d14ae146696203f07a10048c9e94ea0296806b35bd218b2c1b0
     target_directory: src
   # go-licenses cannot detect the license of chroma (it ships a COPYING file), so we vendor it manually
   - url: https://raw.githubusercontent.com/alecthomas/chroma/v2.27.0/COPYING
